@@ -1,0 +1,290 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+ol li{
+  margin-left: 50px;
+}
+
+h3{
+  display: inline-block;
+}
+
+
+
+
+.home-bar{
+  background-color: #57a3d5;
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home-bar label{
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 4vw;
+}
+
+
+
+
+
+/* Background color */
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+/* White card div */
+.card{
+  height: 70vh;
+  width: 80vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Underline on name */
+.underline{
+  text-decoration: underline #57a3d5;
+  text-underline-position: under;
+}
+
+
+
+/* Card information */
+#leftSide{
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 115px;
+  margin-bottom: 220px;
+}
+
+/* Card number */
+#rightSide{
+  width: 30vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: -15px;
+}
+
+
+
+.change-btn{
+  width: 85vw;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 26px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.last-btn{
+  font-size: 28px;
+  border: none;
+  background-color: inherit;
+  color: #fff;
+  display: flex;
+  border-radius: 30%;
+}
+
+.next-btn{
+  font-size: 28px;
+  border: none;
+  background-color: inherit;
+  color: #fff;
+  display: flex;
+  border-radius: 30%;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+/* .form-container{
+  background-color: lightblue;
+  font-size: 20px;
+  margin-bottom: 50px;
+} */
+
+
+
+
+.pos{
+  position: absolute;
+  
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgb(57, 96, 114);
+}
+
+.form-container h1{
+  display: flex;
+  justify-content: center;
+}
+
+.form-container input[type=text]{
+  display: flex;
+  justify-self: center;
+  width: 90%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  border: none;
+}
+
+.form-container input[type=text]:focus{
+  outline: 1x solid;
+}
+
+.form-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-container button:hover{
+  opacity: 1;
+  background-color: indigo;
+}
+
+
+
+
+
+
+#mod-btns{
+  width: 20vw;
+  background-color: inherit;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -70px;
+}
+
+
+.edit-btn{
+  background-color: #57a3d5;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.delete-btn{
+  background-color: #57a3d5;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.new-btn{
+  background-color: #57a3d5;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
